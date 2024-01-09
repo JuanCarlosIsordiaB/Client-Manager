@@ -1,47 +1,29 @@
 
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Cliente } from '../components/Cliente';
+import { obtenerClientes } from '../api/clientes';
 
 const Index = () => {
-    const [clients, setClients] = useState([
-        {
-            id: 1,
-            nombre: 'Juan',
-            telefono: 102013313,
-            email: "juan@juan.com",
-            empresa: 'Codigo Con Juan'
-        },
-        {
-            id: 2,
-            nombre: 'Karen',
-            telefono: 138198313,
-            email: "karen@juan.com",
-            empresa: 'Codigo Con Juan'
-        },
-        {
-            id: 3,
-            nombre: 'Josue',
-            telefono: 31983913,
-            email: "josue@juan.com",
-            empresa: 'Codigo Con Juan'
-        },
-        {
-            id: 4,
-            nombre: 'Miguel',
-            telefono: 319381983,
-            email: "miguel@juan.com",
-            empresa: 'Codigo Con Juan'
-        },
-        {
-            id: 5,
-            nombre: 'Pedro',
-            telefono: 1398198938,
-            email: "pedro@juan.com",
-            empresa: 'Codigo Con Juan'
-        },
-    ]);
+    const [clients, setClients] = useState([])
+    
 
+    useEffect(() => {
+        const fetchClients = async () => {
+          try {
+
+            const data = await obtenerClientes();
+            setClients(data);
+
+          } catch (error) {
+            console.error('Error fetching clients:', error);
+            
+          }
+        };
+    
+        fetchClients();
+      }, []);
+    
 
 
   return (

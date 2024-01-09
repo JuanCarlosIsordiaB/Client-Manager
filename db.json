@@ -1,0 +1,71 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "telefono": 102013313,
+      "email": "juan@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 2,
+      "nombre": "Karen",
+      "telefono": 138198313,
+      "email": "karen@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 3,
+      "nombre": "Josue",
+      "telefono": 31983913,
+      "email": "josue@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 4,
+      "nombre": "Miguel",
+      "telefono": 319381983,
+      "email": "miguel@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 5,
+      "nombre": "Pedro",
+      "telefono": 1398198938,
+      "email": "pedro@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "3014",
+      "nombre": "Juan Carlos Isordia Betancourt",
+      "empresa": "Tesla",
+      "email": "dan@gmail.com",
+      "telefono": "+524442209779",
+      "notas": "Ha realizaado un software INCREIBLE ALV"
+    },
+    {
+      "id": "9b5a",
+      "nombre": "Ezequiel",
+      "empresa": "Cheque",
+      "email": "tuta@zikualmanuel.com",
+      "telefono": "87876876",
+      "notas": "Ha diseñado"
+    },
+    {
+      "id": "9655",
+      "nombre": "Alonso",
+      "empresa": "Muebleria",
+      "email": "manuelfloreshuerta@hotmail.com",
+      "telefono": "234234",
+      "notas": "yessir"
+    },
+    {
+      "id": "f474",
+      "nombre": "Humberto",
+      "empresa": "Grupo Acerero",
+      "email": "humbertp@granpersona.com",
+      "telefono": "21341234",
+      "notas": "es milllonario"
+    }
+  ]
+}
