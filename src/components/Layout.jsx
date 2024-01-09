@@ -15,7 +15,7 @@ export const Layout = () => {
           <Link className={`${location.pathname === '/clientes/nuevo' ? 'bg-blue-300' : 'bg-blue-900'} text-xl block p-2 mt-2 rounded-md transition-all hover:bg-blue-300 text-white`  } to='/clientes/nuevo'>New Client</Link>
         </nav>
       </aside>
-      <main className='md:w-3/4 p-10 md:h-screen overflow-scroll'>
+      <main className='md:w-3/4 p-10 md:h-screen bg-gray-200 overflow-scroll'>
         <Outlet />
       </main>
     </div>
