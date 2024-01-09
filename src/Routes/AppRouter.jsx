@@ -12,7 +12,9 @@ export const AppRouter = () => {
       <Route path='/' element={<Layout />}>
         <Route index element={<Index />}  />
         <Route path='clientes/nuevo' element={<NuevoCliente />} />
-        <Route path='clientes/:clienteId/editar' element={<EditarCliente />} />
+        
+        
+
       </Route>
     </Routes>
   );

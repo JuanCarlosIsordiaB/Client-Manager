@@ -9,6 +9,8 @@ export const obtenerClientes = async() => {
 
 }
 
+
+
 export const añadirCliente = async(datos) => {
     try {
         const req = await fetch(import.meta.env.VITE_API_URL , {
@@ -22,3 +24,6 @@ export const añadirCliente = async(datos) => {
         console.log(error);
     }
 }
+
+
+

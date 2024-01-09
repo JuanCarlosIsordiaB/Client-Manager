@@ -50,6 +50,8 @@ export const NuevoCliente = () => {
     });
   };
 
+ 
+
   return (
     <>
       <h1 className='font-black text-4xl text-blue-900'>New Client:</h1>
@@ -77,6 +79,7 @@ export const NuevoCliente = () => {
         >
 
           <Formulario 
+
             onChange={handleChange} 
           />
 
